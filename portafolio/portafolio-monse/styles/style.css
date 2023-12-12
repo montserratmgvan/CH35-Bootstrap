@@ -1,0 +1,68 @@
+:root {
+--font-primary: 'Nanum Gothic Coding', monospace;    
+}
+
+body{
+    background-color:#B8A0D9;
+    color: black;
+    font-family: var(--font-primary);
+}
+
+
+.hola{
+  font-family: var(--font-primary);
+  background-color: #B8A0D9;
+  color: black;
+  }
+
+
+
+
+
+  
+  .bg-text {
+    color: var(--main-color);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    /* Ver apartado 4.4.Google fonts */
+    font-family: RubikMonoOne;
+  }
+  /* El background es una imagen previamente descargada en nuestra carpeta images del proyecto */
+  .home {
+    background-image: url("./images/bgImage.jpg");
+  }
+
+
+
+
+
+
+  .custom-section {
+    padding-top: 50px;
+  }
+  .cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-text {
+    font-family: "New Tegomin";
+  }
+
+  body {
+    background-color:#E7CEF2; }
+
+    .navbar-principal{
+  
+        background-color: #8145B0;
+     }
+    
